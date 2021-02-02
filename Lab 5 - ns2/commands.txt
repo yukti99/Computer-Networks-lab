@@ -1,0 +1,5 @@
+ns2 : ns a.tcl
+awk -f a.awk a.tr
+
+ns3 : ./waf --run scratch/"third"
+./NetAnim
